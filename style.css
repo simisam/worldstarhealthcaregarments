@@ -1,0 +1,212 @@
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+background:white;
+}
+h2
+{
+font-size:2vw;
+color:
+}
+.h-image
+{
+position:static;
+}
+.h-image img
+{
+height:100%;
+width:100%;
+}
+.i-text
+{
+position:absolute;
+top:220px;
+left:30px;
+color:white;
+text-shadow:4px 4px 8px blue;
+font-size:2vw;
+font-family:"Garamond";
+}
+.a-shop
+{
+background:#19273e;
+ width:150px;
+margin:10px;
+padding:15px;
+border-radius:5px;
+text-align:center;
+
+}
+.a-shop a 
+{
+text-decoration:none;
+color:white;
+
+}
+.a-shop a:hover
+{
+color:#2A6592;
+}
+.menu-bar{
+  position: relative;
+
+}
+.menu-bar ul
+{
+  width: 100vw;
+display:inline-flex;
+list-style:none;
+color:white;
+float:right;
+background-color: #19273e;
+}
+.menu-bar ul li 
+{
+ width:10vw;
+margin:8px;
+padding:10px;
+background:#2A6592;
+text-align:center;
+border-radius:0.5vw;
+background-size: 10vw;
+
+}
+.menu-bar ul li a
+{
+text-decoration:none;
+color:white;
+padding:0;
+width:3vw;
+line-height:2.5vw;
+font-size: 1.2vw;
+
+}
+.menu-bar ul li.active {
+
+background-color:#1E90FF;
+text-align:center;
+border-radius:0.5vw; 
+
+}
+.menu-bar ul li span.cart-no{
+  background-color: red;
+  border-radius:100px;
+}
+.menu-bar ul li:hover
+{
+ background-color:#1E90FF;
+text-align:center;
+border-radius:3px; 
+
+}
+.menu-bar .fa
+{ 
+margin-right:15px;
+}
+
+.fa-angle-right
+{
+float:right;
+
+}
+.menu-bar .logo{
+  padding: 0px;
+}
+.menu-bar ul .logo img{
+  padding-left: 10px;
+height:60px;
+width:55px;
+border-radius:8px;
+float: left;
+}
+.menu-bar ul h1
+{
+  padding-left: 10px;
+color:#00ADAD;
+font-size:40px;
+float: left;
+}
+.menu-bar ul h3
+{
+    padding-left: 10px;
+font-size:17px;
+color:#00ADAD;
+float: left;
+letter-spacing: 1px;
+}
+.mv-table{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+.mv-table th{
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  color:white !Important;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background:black;
+ 
+}
+
+input[type=textarea] {
+  width: 100%;
+  padding: 40px 20px;
+  color:white !Important;
+  margin: 15px 0;
+  box-sizing: border-box;
+  background:black;
+
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  color:white !Important;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background:black;
+}
+input[type=phone] {
+   width: 100%;
+  padding: 12px 20px;
+  color:white !Important;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background:black;
+
+}
+table
+{
+width:100%;
+}
+table th{
+color:#19273e;
+
+}
+
+input[type=submit]{
+  background-color:#202020;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer;
+  position:relative;
+  
+}
+input[type=submit]:hover{
+background-color:black;
+
+}
+.
